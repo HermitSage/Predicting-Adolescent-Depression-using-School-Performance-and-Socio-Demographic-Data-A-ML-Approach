@@ -14,15 +14,15 @@ Apply SHAP to interpret model outputs and examine potential bias.
 Identify key sociodemographic, academic, and health features associated with depression risk.
 
 ## 3. Tools and Technologies
-Python 3.10+
-Google Colab (primary compute environment)
-Scikit-learn, CatBoost, XGBoost
-Pandas, NumPy, Matplotlib, Seaborn
+Python 3.10+,
+Google Colab (primary compute environment),
+Scikit-learn, CatBoost, XGBoost,
+Pandas, NumPy, Matplotlib, Seaborn,
 SHAP for explainability
 
 Hardware Used:
 Intel Core i5-8250U CPU
-8GB RAM
+8GB RAM,
 Local machine supplemented by Colab CPU/GPU
 
 ## 4. Dataset
@@ -41,12 +41,12 @@ Raw data is not included in this repository due to licensing restrictions.
 
 ## 5. Methodology Summary
 ### 5.1 Data Preprocessing
-Removal of missing values and duplicates
-Harmonisation of GCSE and N5 academic measures
-Recoding of categorical demographic variables
+Removal of missing values and duplicates,
+Harmonisation of GCSE and N5 academic measures,
+Recoding of categorical demographic variables.
 ### 5.2 Feature Engineering
-Creation of Total_GCSE_N5 and A_Grades variables
-Consolidation of academic performance indicators
+Creation of Total_GCSE_N5 and A_Grades variables,
+Consolidation of academic performance indicators.
 ### 5.3 Class Imbalance Handling
 Balanced class weights (no SMOTE used for interpretability)
 ### 5.4 Model Training and Comparison
@@ -58,9 +58,9 @@ F1-score for depressed class,
 PR-AUC, ROC-AUC,
 Weighted F1-score (for comparison with literature)
 ### 5.6 Interpretability
-SHAP global importance plots
-SHAP beeswarm and bar plots
-Individual SHAP waterfall plots
+SHAP global importance plots,
+SHAP beeswarm and bar plots,
+Individual SHAP waterfall plots.
 
 #### Key Finding:
 CatBoost provided the strongest performance across minority-class metrics and overall discriminative ability.
