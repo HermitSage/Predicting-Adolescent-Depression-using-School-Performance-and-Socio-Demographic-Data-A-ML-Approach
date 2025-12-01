@@ -62,24 +62,15 @@ SHAP global importance plots
 SHAP beeswarm and bar plots
 Individual SHAP waterfall plots
 
-## 6. Results Summary
-Model	F1 (Weighted)	F1 (Depressed)	ROC-AUC
-CatBoost	0.7521	0.3218	0.6773
-AdaBoost	0.7795	0.2857	0.6400
-Random Forest	0.7891	0.1805	0.5809
-XGBoost	0.8053	0.1802	0.5797
-SVC (RobustScaler)	0.7820	0.2335	0.5627
-KNN (RobustScaler)	0.7960	0.2195	0.5861
-
 #### Key Finding:
 CatBoost provided the strongest performance across minority-class metrics and overall discriminative ability.
 
-## 7. Interpretability Highlights (SHAP)
+## 6. Interpretability Highlights (SHAP)
 Gender identity, sexual orientation, chronic illness, household structure, and academic attainment were the most influential features.
 SHAP results aligned with established psychosocial determinants of depression.
 Interpretability was essential due to the sensitivity of mental-health predictions.
 
-## 9. Legal and Ethical Compliance
+## 7. Legal and Ethical Compliance
 All work complied with UK GDPR and the Data Protection Act (2018).
 Data access and use adhered to the UK Data Service End User Licence.
 Ethical procedures followed Coventry University guidelines.
