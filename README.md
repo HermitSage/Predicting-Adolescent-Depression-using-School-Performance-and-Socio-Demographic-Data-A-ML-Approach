@@ -85,7 +85,8 @@ Integrate multi-modal data (text, behavioural, digital indicators).
 Develop practitioner-facing dashboards for explainable risk modelling.
 
 #### Contact
-Author: Rodrigue T
+Author: Rodrigue T.
+
 Programme: MSc Data Science – Coventry University
 
 For questions or collaboration opportunities, feel free to get in touch.
