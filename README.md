@@ -1,5 +1,5 @@
 # Predicting Adolescent Depression Using School Performance and Socio-Demographic Data: A Machine Learning Approach
-🚀 * An interpretable machine learning framework for identifying depression risk in adolescents using school and socio-demographic data. *
+🚀 *An interpretable machine learning framework for identifying depression risk in adolescents using school and socio-demographic data.*
 
 ## 1. 📌 Project Overview
 
