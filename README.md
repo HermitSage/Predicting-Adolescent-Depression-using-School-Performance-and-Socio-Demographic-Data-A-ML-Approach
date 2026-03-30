@@ -26,7 +26,8 @@ Sociodemographic characteristics
 Household structure
 Academic attainment (GCSE and National 5)
 Physical health indicators
-Psychological distress via the Kessler-6 (K6) scale
+Psychological distress via the Kessler-6 (K6) scale.  
+
 *Raw data is not included in this repository due to licensing restrictions.*
 
 ## 4. Methodology Summary
