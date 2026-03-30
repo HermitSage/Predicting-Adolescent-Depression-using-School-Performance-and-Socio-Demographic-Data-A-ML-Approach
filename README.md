@@ -30,40 +30,45 @@ Psychological distress via the Kessler-6 (K6) scale
 *Raw data is not included in this repository due to licensing restrictions.*
 
 ## 5. Methodology Summary
-🔹 Data Processing
-- Data cleaning & merging across multiple MCS datasets.  
-- Handling missing values and duplicates.  
-- Feature engineering for academic indicators
-🔹 Class Imbalance Handling
-- SMOTE (Synthetic Minority Oversampling Technique)
-- Class weighting
-🔹 Model Pipelines
-- Pipeline A: CatBoost (native categorical handling)
-- Pipeline B: One-Hot Encoding + Scaling (for SVC, KNN, etc.)
-🔹 Evaluation Metrics
+#### Data Processing:  
+Data cleaning & merging across multiple MCS datasets, Handling missing values and duplicates, Feature engineering for academic indicators.  
+#### Class Imbalance Handling:  
+SMOTE (Synthetic Minority Oversampling Technique), Class weighting.  
+#### Model Pipelines:  
+Pipeline A: CatBoost, Pipeline B: One-Hot Encoding + Scaling (for SVC and KNN only).  
+#### Evaluation Metrics:  
 Due to class imbalance, priority was given to:
-**F1-score (Depressed class)** ⭐
-Precision-Recall AUC (PR-AUC)
-Recall (Sensitivity)
-ROC-AUC
+**F1-score (Depressed class)** ⭐, Precision-Recall AUC (PR-AUC), Recall (Sensitivity), ROC-AUC.  
 *Accuracy (secondary metric)*
 
-#### Key Finding:
-CatBoost provided the strongest performance across minority-class metrics and overall discriminative ability.
+### 👉Key Finding:
+CatBoost provided the strongest performance across minority-class metrics and overall discriminative ability.  
+High accuracy does NOT mean better detection → Accuracy paradox.
 
-## 6. Interpretability Highlights (SHAP)
-Gender identity, sexual orientation, chronic illness, household structure, and academic attainment were the most influential features.
-SHAP results aligned with established psychosocial determinants of depression.
-Interpretability was essential due to the sensitivity of mental-health predictions.
+## 6. 🔍 Explainability (XAI)
+SHAP Analysis revealed:  
+🔴 Strong Risk Factors:  
+Gender identity (females and other genders).  
+Sexual orientation (LGBT adolescents).  
+Long-standing illness  
+🟢 Protective Factors:  
+High academic achievement.  
+Good physical health.
 
-## 7. Legal and Ethical Compliance
+## 7. 🧰 Tech Stack
+Language: Python 3.10.  
+Libraries: pandas, NumPy, matplotlib, seaborn
+scikit-learn, CatBoost, XGBoost, RandomForest, KNN, SVC, SHAP.  
+Environment: Google Colab.
+
+## 8. Legal and Ethical Compliance
 All work complied with UK GDPR and the Data Protection Act (2018).
 Data access and use adhered to the UK Data Service End User Licence.
 Ethical procedures followed Coventry University guidelines.
 Sensitive predictors were analysed cautiously and interpreted with transparency.
 No automated decision-making or individual profiling was conducted.
 
-## 10. Future Work
+## 9. Future Work
 Incorporate longitudinal predictors from earlier MCS sweeps.
 Explore fairness-aware machine-learning algorithms.
 Validate models using external datasets such as ALSPAC or LSYPE2.
@@ -75,4 +80,6 @@ Author: Rodrigue T.
 
 Programme: MSc Data Science – Coventry University
 
+⭐ If you found this useful
+Give this repo a ⭐ and connect with me on LinkedIn!
 For questions or collaboration opportunities, feel free to get in touch.
