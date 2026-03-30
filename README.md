@@ -76,6 +76,5 @@ Author: Rodrigue T.
 
 Programme: MSc Data Science – Coventry University
 
-⭐ If you found this useful  
-Give this repo a ⭐ and connect with me on LinkedIn!  
+If you found this useful, give this repo a ⭐ and connect with me on LinkedIn!  
 For questions or collaboration opportunities, feel free to get in touch.
