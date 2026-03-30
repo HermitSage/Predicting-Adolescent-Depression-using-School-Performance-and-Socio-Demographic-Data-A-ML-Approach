@@ -1,11 +1,20 @@
 # Predicting Adolescent Depression Using School Performance and Socio-Demographic Data: A Machine Learning Approach
-## MSc Data Science Project – Coventry University
 
-This repository contains the full implementation of a machine-learning framework designed to predict adolescent depression using structured demographic, academic, and health-related data from the Millennium Cohort Study (MCS) Sweep 7. The project evaluates multiple algorithms under class imbalance and incorporates SHAP interpretability to ensure transparency and ethical model behaviour.
+🧠 Predicting Adolescent Depression Using Machine Learning
 
-## 1. Project Overview
-Adolescent depression is a growing public-health concern, yet early identification remains difficult in non-clinical populations. This project investigates whether machine-learning models can support early risk detection using structured MCS survey data. Several classifiers are compared, and their interpretability is examined to ensure responsible and transparent use.
+🚀 An interpretable machine learning framework for identifying depression risk in adolescents using school and socio-demographic data.
 
+## 1. 📌 Project Overview
+
+Adolescent depression is a growing public health concern, yet early detection remains challenging due to reliance on clinical diagnosis.
+
+This project explores how machine learning (ML) can be used to predict depression risk in adolescents aged 17–18 using non-clinical structured data, including:
+
+📊 Academic performance (GCSE / National 5)
+🏠 Socio-demographic factors
+❤️ Physical health indicators
+
+Using data from the UK Millennium Cohort Study (MCS) – Sweep 7, this study builds and compares multiple ML models to detect at-risk individuals and provide interpretable insights for early intervention.
 ## 2. Objectives
 Develop a classification model to predict adolescent depression using MCS Sweep 7 data.
 Compare multiple machine-learning algorithms under class-imbalance conditions.
